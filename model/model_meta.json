@@ -1,0 +1,34 @@
+{
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 120,
+  "test_accuracy": 0.7995,
+  "cv_accuracy_mean": 0.7942,
+  "cv_accuracy_std": 0.0092,
+  "features": [
+    "monthly_spend_delta_pct",
+    "salary_credit_variance",
+    "emi_to_income_ratio_new",
+    "merchant_category_shift_score",
+    "peer_transfer_anomaly_score",
+    "utility_bill_location_change",
+    "sip_initiation_flag",
+    "balance_floor_volatility"
+  ],
+  "classes": [
+    "digital_shift",
+    "education_loan",
+    "job_change",
+    "marriage",
+    "medical_event",
+    "new_child",
+    "relocation",
+    "retirement_approach",
+    "salary_hike",
+    "travel_pattern",
+    "vehicle_purchase",
+    "windfall_bonus"
+  ],
+  "train_samples": 8000,
+  "test_samples": 2000,
+  "seed": 42
+}

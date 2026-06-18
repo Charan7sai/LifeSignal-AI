@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+model/lsti_rf_model.pkl
+model/label_encoder.pkl
